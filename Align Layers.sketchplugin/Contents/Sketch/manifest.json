@@ -1,0 +1,77 @@
+{
+  "author" : "Daniel Eden",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "name" : "Left",
+      "shortcut" : "cmd ctrl [",
+      "handlers" : {
+        "run" : "alignLeft"
+      },
+      "identifier" : "alignLayersLeft"
+    },
+    {
+      "script" : "script.js",
+      "name" : "Horizontally",
+      "shortcut" : "cmd ctrl ]",
+      "handlers" : {
+        "run" : "alignCenter"
+      },
+      "identifier" : "alignLayersHorizontally"
+    },
+    {
+      "script" : "script.js",
+      "name" : "Right",
+      "shortcut" : "cmd ctrl \\",
+      "handlers" : {
+        "run" : "alignRight"
+      },
+      "identifier" : "alignLayersRight"
+    },
+
+    {
+      "script" : "script.js",
+      "name" : "Top",
+      "shortcut" : "cmd ctrl {",
+      "handlers" : {
+        "run" : "alignTop"
+      },
+      "identifier" : "alignLayersTop"
+    },
+    {
+      "script" : "script.js",
+      "name" : "Vertically",
+      "shortcut" : "cmd ctrl }",
+      "handlers" : {
+        "run" : "alignMiddle"
+      },
+      "identifier" : "alignLayersVertically"
+    },
+    {
+      "script" : "script.js",
+      "name" : "Bottom",
+      "shortcut" : "cmd ctrl |",
+      "handlers" : {
+        "run" : "alignBottom"
+      },
+      "identifier" : "alignLayersBottom"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "alignLayersLeft",
+      "alignLayersHorizontally",
+      "alignLayersRight",
+      "-",
+      "alignLayersTop",
+      "alignLayersVertically",
+      "alignLayersBottom"
+    ],
+    "title" : "Align Layers"
+  },
+  "identifier" : "me.daneden.SketchAlignLayers",
+  "version" : "1.0",
+  "description" : "Add shortcuts to the 'align layers' actions",
+  "authorEmail" : "dan.eden@me.com",
+  "name" : "Align Layers"
+}
