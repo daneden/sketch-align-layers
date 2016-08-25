@@ -32,7 +32,7 @@
     {
       "script" : "script.js",
       "name" : "Top",
-      "shortcut" : "cmd ctrl {",
+      "shortcut" : "cmd ctrl shift [",
       "handlers" : {
         "run" : "alignTop"
       },
@@ -41,7 +41,7 @@
     {
       "script" : "script.js",
       "name" : "Vertically",
-      "shortcut" : "cmd ctrl }",
+      "shortcut" : "cmd ctrl shift ]",
       "handlers" : {
         "run" : "alignMiddle"
       },
@@ -50,7 +50,7 @@
     {
       "script" : "script.js",
       "name" : "Bottom",
-      "shortcut" : "cmd ctrl |",
+      "shortcut" : "cmd ctrl shift \\",
       "handlers" : {
         "run" : "alignBottom"
       },
