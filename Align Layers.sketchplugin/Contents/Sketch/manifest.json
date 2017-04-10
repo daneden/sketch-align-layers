@@ -70,7 +70,7 @@
     "title" : "Align Layers"
   },
   "identifier" : "me.daneden.SketchAlignLayers",
-  "version" : "1.1",
+  "version" : "1.2",
   "description" : "Add shortcuts to the 'align layers' actions",
   "authorEmail" : "dan.eden@me.com",
   "name" : "Align Layers"

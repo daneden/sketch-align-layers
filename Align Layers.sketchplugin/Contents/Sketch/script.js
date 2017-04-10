@@ -12,7 +12,7 @@ function alignLayers(context, alignment) {
   var action = doc.actionsController().actionForID(alignment);
 
   if(action.validate()) {
-      action.doPerformAction(nil);
+      action.doPerformAction(null);
   }
 }
 
